@@ -2,8 +2,8 @@
 <xccdf:Tailoring xmlns:xccdf="http://checklists.nist.gov/xccdf/1.2" id="xccdf_scap-workbench_tailoring_default">
   <xccdf:benchmark href="C:/Users/Developer/Downloads/scap-security-guide-0.1.75/scap-security-guide-0.1.75/ssg-ubuntu2204-ds.xml"/>
   <xccdf:version time="2024-12-04T10:06:21">1</xccdf:version>
-  <xccdf:Profile id="xccdf_org.ssgproject.content_profile_ISO" extends="xccdf_org.ssgproject.content_profile_cis_level1_server">
-    <xccdf:title xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en-US" override="true">CIS Ubuntu 22.04 Level 1 Server Benchmark [CUSTOMIZED]</xccdf:title>
+  <xccdf:Profile id="xccdf_org.ssgproject.content_profile_ISO_27001_2013" extends="xccdf_org.ssgproject.content_profile_cis_level1_server">
+    <xccdf:title xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en-US" override="true">ISO 27001 2013 Ubuntu 22.04 </xccdf:title>
     <xccdf:description xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en-US" override="true">This baseline aligns to the Center for Internet Security
 Ubuntu 22.04 LTS Benchmark, v1.0.0, released 08-30-2022.</xccdf:description>
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_file_ownership_audit_configuration" selected="false"/>
